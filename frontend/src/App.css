@@ -1,0 +1,83 @@
+.card1 {
+    animation-name: card1Animation;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+    animation-direction: normal;
+}
+
+.card2 {
+    animation-name: card2Animation;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+    animation-direction: normal;
+}
+
+.card3 {
+    animation-name: card3Animation;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+    animation-direction: normal;
+}
+
+
+.card4 {
+    animation-name: card4Animation;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+    animation-direction: normal;
+    animation-timing-function: cubic-bezier();
+} 
+
+@keyframes card1Animation {
+    0% {
+        transform: translateX(-400px);
+        opacity: 0;
+    }
+
+    70%{
+        opacity: .7;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes card2Animation {
+    0% {
+        transform: translateY(-400px);
+        opacity: 0;
+    }
+
+    70%{
+        opacity: .7;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes card3Animation {
+    0% {
+        transform: translateY(400px);
+        opacity: 0;
+    }
+
+    70% {
+        opacity: .7;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes card4Animation {
+    0% {
+        transform: translateX(400px);
+        opacity: 0;
+    }
+
+    70% {
+        opacity: .7;
+    }
+    100%{
+        opacity: 1;
+    }
+}
